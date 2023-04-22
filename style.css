@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-family: "Open Sans", sans-serif;
+}
+
+p{
+    width: 80%;
+    font-size: 20px;
+    margin: 20px auto;
+}
+
+.h1-tittle-notiticia{
+    width: 70%;
+    font-size: 43px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+#img-imagen1{
+    display: block;
+    margin: 20px auto;
+    width: 900px;
+    
+}
+
+header{
+	width: 100%;
+	height: 90px;
+    position: sticky;
+    top:0;
+	background-color: #000000f0;
+}
+
+.interior{
+	max-width: 100%;
+	padding: 0 10px;
+	margin: auto;
+    
+    
+}
+
+.interior h2 a{
+	float: left;
+    display: inline;
+	padding: 30px 25px;
+    color:yellow;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: .1s linear;
+}
+.interior h2 a:hover{
+    transform: scale(1.1);
+    color: white;
+    background-color: rgba(0, 0, 0, 0.292);
+}
+.navegacion{
+	float:right;
+	display:flex;
+	align-items: center;
+	min-height: 90px;
+	z-index: 1000;
+    
+}
+.navegacion ul{
+	list-style: none;
+	padding: 0 10px;
+    
+}
+.navegacion ul li{
+	display: inline-block;
+	position: relative;
+	transition: .1s linear;
+	z-index: 1000;
+    
+}
+.navegacion ul li:hover{
+	transform: scale(1.1);
+    
+}
+.navegacion ul li a{
+	color: #ffffff;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 12px 20px;
+	transition: .1s linear;
+}
+.navegacion ul li a:hover{
+	color: yellow;
+	transform: scale(1.1);
+}
+.navegacion ul li:hover .hijos{
+	display: block;
+    
+}
+
+.navegacion .submenu .hijos{
+	display: none;
+	background: rgba(0, 0, 0, 0.87);
+	position:absolute;
+	width: 100%;
+    top: 29px;
+    padding-bottom: 5px;
+    margin: 0%;
+    
+}
+
+#nav-fb:hover{
+    color: rgb(45, 127, 249);
+}
+#nav-ig:hover{
+    color: rgb(249, 59, 45);
+}
+#nav-tw:hover{
+    color: rgb(45, 235, 249);
+}
+
+.navegacion .submenu .hijos li{
+	display: block;
+	overflow: hidden;
+	border-bottom: none;
+    padding: 5px 0;
+    transition: .1s linear;
+}
+.navegacion .submenu .hijos li:hover{
+    background-color: rgba(0, 0, 0, 0.904);
+}
+.navegacion .submenu .hijos li a{
+	display: block;
+}
+
